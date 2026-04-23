@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:5000/api', // Backend URL
+    baseURL: 'https://lost-found-item-management-system-bt3g.onrender.com/api', // Backend URL
 });
 
 // Request interceptor to add the JWT token
